@@ -1,9 +1,10 @@
-//导入 express
+//导入 express 模块
 const express = require('express')
-//导入 db 包
+//导入 db 模块
 const db = require('./db/db')
-//导入 Users 包
+//导入 Users 模块
 const UserModel = require('./db/Users')
+//导入 mongoose 模块
 const mongoose = require('mongoose')
 
 const router = express.Router()
